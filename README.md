@@ -22,7 +22,31 @@ ___
 ## Manjaro Linux (KDE):
 - ***Removing a uninstalled repository remaining hidden:*** **`The repo should be specified in "/etc/pacman.conf". Just edit the file and remove it or comment it out by putting # in the beginning of the line.`** <br/>
 - ..
-- ....
+###  Visual Stude Code
+   - **ERROR while  _"Sign in"_ or _"Connecting to Github"_** <br/>
+   Error message: `secret_password_clear_sync() failed with error code 2: The name org.freedesktop.secrets was not provided by any .service files` <br/>
+   **Solution:** you likely don't have gnome-keyring and libsecret installed._**In "Terminal" Run👇↲:**_ <br/>
+   ```cpp
+   sudo pacman -S gnome-keyring libsecret
+   ```
+   _Then restart PC._ <br/>
+   _Also can Follow **this Vs Code Issue** here:_ _https://github.com/MicrosoftDocs/live-share/issues/224_
+   ### Configuring Git
+- **Configuring Git for _"Cloning"_ and _"Submitting File"_:**
+   - Run the following Commands:
+   ```
+   git config --global user.name "cosmicsarthak"
+   ```
+   ```
+   git config --global user.email "sarthakmohanty200@gmail.com"
+   ```
+   _Then I can **Check** its corect or not by👉:_
+   `git config user.name` or `git config user.email` or `git config list` <br/>
+   It should show like this👇:
+   ```
+   user.name=cosmicsarthak
+   user.email=sarthakmohanty200@gmail.com
+   ```
 - ...
 ___
 ## Garuda Linux (KDE _Dr460nized_):
