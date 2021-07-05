@@ -20,6 +20,7 @@ ___
 ___
 # My LInux Troubleshooters
 ## Manjaro Linux (KDE):
+### Removing a uninstalled repository remaining hidden
 - ***Removing a uninstalled repository remaining hidden:*** **`The repo should be specified in "/etc/pacman.conf". Just edit the file and remove it or comment it out by putting # in the beginning of the line.`** <br/>
 - ..
 ###  Visual Stude Code
