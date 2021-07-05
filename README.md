@@ -62,6 +62,22 @@ If you follow these steps carefully, **tap to click** and **right click** should
    sudo pacman -S gnome-keyring libsecret
    ```
    _Then restart PC._
+- **_Configuring Git for _"Cloning"_ and _"Submitting File"_:**
+   - Run the following Commands:
+   ```
+   git config --global user.name "cosmicsarthak"
+   ```
+   ```
+   git config --global user.email "sarthakmohanty200@gmail.com"
+   ```
+   _Then I can **Check** its corect or not by👉:   _
+   `git config user.name` or `git config user.email` or `git config list` <br/>
+   It show show like this👇:
+   ```
+   user.name=cosmicsarthak
+   user.email=sarthakmohanty200@gmail.com
+   ```
+   
 ___
 ## Ubuntu:
 - ..
