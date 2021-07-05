@@ -73,7 +73,7 @@ If you follow these steps carefully, **tap to click** and **right click** should
    ```
    git config --global user.email "sarthakmohanty200@gmail.com"
    ```
-   _Then I can **Check** its corect or not by👉:   _
+   _Then I can **Check** its corect or not by👉:_
    `git config user.name` or `git config user.email` or `git config list` <br/>
    It should show like this👇:
    ```
