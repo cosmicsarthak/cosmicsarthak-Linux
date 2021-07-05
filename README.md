@@ -53,15 +53,18 @@ If you follow these steps carefully, **tap to click** and **right click** should
    ***`libinput` is being used/configured here*** <br/>
 **Tip:** Visit  https://wiki.archlinux.org/index.php/Libinput for more configuration of touchpad
 <br/>
+### Software Centre
 - ***`pamac`*** is to be used as Software centre (**`optopi`** _is not supported [as of July 2021]_)
-- _**Vs Code:**_ <br/>
+###  Visual Stude Code
    - **ERROR while  _"Sign in"_ or _"Connecting to Github"_** <br/>
    Error message: `secret_password_clear_sync() failed with error code 2: The name org.freedesktop.secrets was not provided by any .service files` <br/>
    **Solution:** you likely don't have gnome-keyring and libsecret installed._**In "Terminal" Run👇↲:**_ <br/>
    ```cpp
    sudo pacman -S gnome-keyring libsecret
    ```
+   Follow This Issue here: https://github.com/MicrosoftDocs/live-share/issues/224
    _Then restart PC._
+   ### Configuring Git
 - **_Configuring Git for _"Cloning"_ and _"Submitting File"_:**
    - Run the following Commands:
    ```
@@ -72,7 +75,7 @@ If you follow these steps carefully, **tap to click** and **right click** should
    ```
    _Then I can **Check** its corect or not by👉:   _
    `git config user.name` or `git config user.email` or `git config list` <br/>
-   It show show like this👇:
+   It should show like this👇:
    ```
    user.name=cosmicsarthak
    user.email=sarthakmohanty200@gmail.com
