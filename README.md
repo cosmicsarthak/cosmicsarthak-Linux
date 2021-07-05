@@ -19,13 +19,13 @@ Dual Booting is differnt for UEFI an dLegacy Laptops:
 ___
 ___
 # My LInux Troubleshooters
-## Manjaro Linux(KDE):
+## Manjaro Linux (KDE):
 - ***Removing a uninstalled repository remaining hidden:*** **`The repo should be specified in "/etc/pacman.conf". Just edit the file and remove it or comment it out by putting # in the beginning of the line.`** <br/>
 - ..
 - ....
 - ...
 ___
-## Garuda Linux(KDE):
+## Garuda Linux (KDE _Dr460nized_):
 ### Enabling Tap-to-click
 - _**Garuda Linux** has disabled **tap-to-click** by default. Follow these steps to enable tap-to-click in Garuda Linux.
 Follow these steps carefully, it requires root(sudo) privileges._ <br/>
@@ -60,7 +60,7 @@ ___
 - ..
 - ...
 ___
-## Arch Linux(KDE / i3wm):
+## Arch Linux (KDE / i3wm):
 - ..
 - ...
 - ...
