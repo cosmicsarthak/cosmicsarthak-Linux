@@ -55,7 +55,7 @@ If you follow these steps carefully, **tap to click** and **right click** should
 <br/>
 - ***`pamac`*** is to be used as Software centre (**`optopi`** _is not supported [as of July 2021]_)
 - _**Vs Code:**_ <br/>
-   **ERROR while  _"Sign in"_ or _"Connecting to Github"_** <br/>
+   - **ERROR while  _"Sign in"_ or _"Connecting to Github"_** <br/>
    Error message: `secret_password_clear_sync() failed with error code 2: The name org.freedesktop.secrets was not provided by any .service files` <br/>
    **Solution:** you likely don't have gnome-keyring and libsecret installed._**In "Terminal" Run👇↲:**_ <br/>
    ```cpp
