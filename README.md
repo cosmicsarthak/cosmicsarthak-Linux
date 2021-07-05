@@ -65,7 +65,7 @@ If you follow these steps carefully, **tap to click** and **right click** should
    _Then restart PC._ <br/>
    _Also can Follow **this Vs Code Issue** here:_ _https://github.com/MicrosoftDocs/live-share/issues/224_
    ### Configuring Git
-- **_Configuring Git for _"Cloning"_ and _"Submitting File"_:**
+- **Configuring Git for _"Cloning"_ and _"Submitting File"_:**
    - Run the following Commands:
    ```
    git config --global user.name "cosmicsarthak"
