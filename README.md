@@ -63,7 +63,7 @@ If you follow these steps carefully, **tap to click** and **right click** should
    sudo pacman -S gnome-keyring libsecret
    ```
    _Then restart PC._ <br/>
-      _ Also can Follow **this Vs Code Issue** here:_ _https://github.com/MicrosoftDocs/live-share/issues/224_
+   _Also can Follow **this Vs Code Issue** here:_ _https://github.com/MicrosoftDocs/live-share/issues/224_
    ### Configuring Git
 - **_Configuring Git for _"Cloning"_ and _"Submitting File"_:**
    - Run the following Commands:
