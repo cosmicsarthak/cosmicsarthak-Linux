@@ -54,9 +54,9 @@ If you follow these steps carefully, **tap to click** and **right click** should
 **Tip:** Visit  https://wiki.archlinux.org/index.php/Libinput for more configuration of touchpad
 <br/>
 - ***`pamac`*** is to be used as Software centre (**`optopi`** _is not supported [as of July 2021]_)
-- Vs Code:
-   **ERROR while  _Sign in_ / _Connecting to Github_ uunable**
-   Error message: Error:   `secret_password_clear_sync() failed with error code 2: The name org.freedesktop.secrets was not provided by any .service files` <br/>
+- _**Vs Code:**_ <br/>
+   **ERROR while  _"Sign in"_ or _"Connecting to Github"_** <br/>
+   Error message: `secret_password_clear_sync() failed with error code 2: The name org.freedesktop.secrets was not provided by any .service files` <br/>
    **Solution:** you likely don't have gnome-keyring and libsecret installed._**In "Terminal" Run👇↲:**_ <br/>
    ```cpp
    sudo pacman -S gnome-keyring libsecret
