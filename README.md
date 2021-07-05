@@ -62,8 +62,8 @@ If you follow these steps carefully, **tap to click** and **right click** should
    ```cpp
    sudo pacman -S gnome-keyring libsecret
    ```
-   Follow This Issue here: https://github.com/MicrosoftDocs/live-share/issues/224
-   _Then restart PC._
+   _Then restart PC._ <br/>
+      _ Also can Follow **this Vs Code Issue** here:_ _https://github.com/MicrosoftDocs/live-share/issues/224_
    ### Configuring Git
 - **_Configuring Git for _"Cloning"_ and _"Submitting File"_:**
    - Run the following Commands:
