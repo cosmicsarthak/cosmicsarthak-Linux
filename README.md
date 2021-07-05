@@ -22,7 +22,7 @@ ___
 ## Manjaro Linux (KDE):
 ### Removing a uninstalled repository remaining hidden
 - ***Removing a uninstalled repository remaining hidden:*** **`The repo should be specified in "/etc/pacman.conf". Just edit the file and remove it or comment it out by putting # in the beginning of the line.`** <br/>
-- ..
+
 ###  Visual Stude Code
    - **ERROR while  _"Sign in"_ or _"Connecting to Github"_** <br/>
    Error message: `secret_password_clear_sync() failed with error code 2: The name org.freedesktop.secrets was not provided by any .service files` <br/>
