@@ -106,6 +106,13 @@ If you follow these steps carefully, **tap to click** and **right click** should
    user.email=sarthakmohanty200@gmail.com
    ```
    
+### VS Code Terminal _ERROR_==> manpath: can't set the locale; make sure $LC_* and $LANG are correct
+- Step 1: _**open the terminal in vscode and type `locale`and see which language it is in. It should be in `LANG=en_GB.UTF-8`**_
+- Step 2. type in the terminal sudo `nano /etc/locale.gen` and scroll down and remove `#` in front the language which is in my case `en_GB.UTF-8` then 
+> `ctrl+x` then press `y` after that `enter`_if using **TERMINAL**_ <br/>
+> or I can do this in any **_EDITOR_** at `/etc/locale.gen`.
+- Step 3. type in terminal `sudo locale-gen` that it ! it is solved!
+
 ___
 ## Ubuntu:
 - ..
