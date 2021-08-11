@@ -20,6 +20,11 @@ ___
 ___
 # My LInux Troubleshooters
 ## Manjaro Linux (KDE):
+## Garuda Linux (KDE _Dr460nized_):
+### Linux Commands to Install and Unsinstall:
+- `sudo pacman` _commands_: ***https://wiki.archlinux.org/title/pacman***
+<br/>
+
 ### Removing a uninstalled repository remaining hidden
 - ***Removing a uninstalled repository remaining hidden:*** **`The repo should be specified in "/etc/pacman.conf". Just edit the file and remove it or comment it out by putting # in the beginning of the line.`** <br/>
 
@@ -51,6 +56,10 @@ ___
 - ...
 ___
 ## Garuda Linux (KDE _Dr460nized_):
+### Linux Commands to Install and Unsinstall:
+- `sudo pacman` _commands_: ***https://wiki.archlinux.org/title/pacman***
+<br/>
+
 ### Enabling Tap-to-click
 - _**Garuda Linux** has disabled **tap-to-click** by default. Follow these steps to enable tap-to-click in Garuda Linux.
 Follow these steps carefully, it requires root(sudo) privileges._ <br/>
@@ -119,6 +128,10 @@ ___
 - ...
 ___
 ## Arch Linux (KDE / i3wm):
+## Garuda Linux (KDE _Dr460nized_):
+### Linux Commands to Install and Unsinstall:
+- `sudo pacman` _commands_: ***https://wiki.archlinux.org/title/pacman***
+<br/>
 - ..
 - ...
 - ...
