@@ -1,3 +1,77 @@
+> links to follow: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+> links to follow: https://github.com/webfactory/ssh-agent
+> links to follow(might not be needed): https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding
+
+____
+
+## Checking SSH Key
+
+```
+ls -al ~/.ssh
+```
+
+__**👆Lists the files in your .ssh directory, if they exist**__
+
+____
+
+## Creating SSH Key:
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+👆**will create id_ed25519 (RECOMMENDED)**
+
+> ****_NOTE: Must not use `PASSPHRASE`_**
+
+OR
+
+```
+ssh-keygen -t rsa -b 4096 -C "sarthakmohanty200@gmail.com"
+```
+
+👆**It will create id_rsa  (optional)**
+
+<br/>
+
+____
+
+## Starting the SSH to the agent:
+
+```
+eval "$(ssh-agent -s)"
+```
+
+____
+
+## Adding the SSH to the agent:
+
+```
+ssh-add ~/.ssh/id_ed25519
+```
+_____
+
+> **NOTE:**
+> id_ed25519.pub is deploy key
+> id_ed25519 is Secret Key
+
+
+
+
+
++++++++++++++++++++++++
+
+## To coy the ssh Keys:
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+
+
+
+
+
+```
+
+
+
 ```
 
  ╭─sarthak-hp@sarthak in repo: cosmicsarthak-docs on  master took 370ms
