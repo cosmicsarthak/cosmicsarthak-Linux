@@ -1,7 +1,7 @@
-> links to follow: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-> links to follow: https://github.com/webfactory/ssh-agent
+> links to follow: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent <br/>
+> links to follow: https://github.com/webfactory/ssh-agent <br/>
 > links to follow(might not be needed): https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding
-
+<br/>
 ____
 
 ## Checking SSH Key
