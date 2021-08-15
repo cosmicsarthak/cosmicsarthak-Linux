@@ -32,3 +32,74 @@ The key's randomart image is:
  ╭─sarthak-hp@sarthak in repo: cosmicsarthak-docs on  master took 13ms
  ╰─λ 
  ```
+ ____
+ 
+ > Must Also Refer to: https://github.com/webfactory/ssh-agent
+
+____
+
+
+## Other Files and Settings from Kate(local Garuda PC):
+
+
+```
+ Chacking SSH Key:
+ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys
+
+ 
+ Generating a new SSH key and adding it to the ssh-agent:
+ https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+ 
+ 
+ Working with SSH key passphrases:
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/working-with-ssh-key-passphrases
+ 
+ 
+ <=====>
+ 
+ +--[ED25519 256]--+
+|     .++**+*=O.  |
+|   . . =o+.=O *  |
+|    + B E *o = . |
+|     B +o*.o+    |
+|    o ..So.. .   |
+|     . .  .      |
+|      .          |
+|                 |
+|                 |
++----[SHA256]-----+
+
+<=======>
+
+Getting th ssh Key (linux):
+cat ~/.ssh/id_ed25519.pub
+
+//here the id_ed25519.pub is called ssh_rsa
+
+
+<====>
+
+Encrypted Secrets:
+https://docs.github.com/en/actions/reference/encrypted-secrets
+
+
+<=============>
+
+Github Actions:
+https://docs.github.com/en/actions/learn-github-actions#creating-a-workflow-file
+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAV+QtCdQNd5wi0X2eeIO9QH17p/mE1PEV9/78kPEbYg sarthakmohanty200@gmail.com
+
+
+
+
+
+
+
+<M++++++>>>
+Trying to fix 
+ssh add- error in Github Actions
+https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding
+
+```
