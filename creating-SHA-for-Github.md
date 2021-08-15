@@ -55,25 +55,19 @@ _____
 > id_ed25519.pub is deploy key
 > id_ed25519 is Secret Key
 
+____
 
-
-
-
-+++++++++++++++++++++++
-
-## To coy the ssh Keys:
+## To coy the SSH Keys:
+```
 xclip -sel clip < ~/.ssh/id_ed25519.pub
-
-
-
-
-
 ```
 
 
+____
+### Some Other Notes:
+
 
 ```
-
  ╭─sarthak-hp@sarthak in repo: cosmicsarthak-docs on  master took 370ms
  ╰─λ ssh-keygen -t rsa -b 4096 -C "sarthakmohanty200@gmail.com"
 Generating public/private rsa key pair.
