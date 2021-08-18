@@ -122,6 +122,23 @@ If you follow these steps carefully, **tap to click** and **right click** should
 > or I can do this in any **_EDITOR_** at `/etc/locale.gen`.
 - Step 3. type in terminal `sudo locale-gen` that it ! it is solved!
 
+
+### Disabling baloo_file_extractor (taking a lot of RAM)
+- Check Status:
+
+```
+balooctl status
+```
+- Stop baloo:
+```
+balooctl disable
+```
+Then again run  `balooctl status`
+- Renove baloo:
+
+```
+rm -rf ~/.local/share/baloo
+```
 ___
 ## Ubuntu:
 - ..
