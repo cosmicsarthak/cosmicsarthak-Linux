@@ -20,7 +20,6 @@ ___
 ___
 # My LInux Troubleshooters
 ## Manjaro Linux (KDE):
-## Garuda Linux (KDE _Dr460nized_):
 ### Linux Commands to Install and Unsinstall:
 - `sudo pacman` _commands_: ***https://wiki.archlinux.org/title/pacman***
 <br/>
@@ -54,6 +53,24 @@ ___
    user.email=sarthakmohanty200@gmail.com
    ```
 - ...
+
+### Disabling baloo_file_extractor (taking a lot of RAM)
+- Check Status:
+
+```
+balooctl status
+```
+- Stop baloo:
+```
+balooctl disable
+```
+Then again run  `balooctl status`
+- Renove baloo:
+
+```
+rm -rf ~/.local/share/baloo
+```
+
 ___
 ## Garuda Linux (KDE _Dr460nized_):
 ### Linux Commands to Install and Unsinstall:
